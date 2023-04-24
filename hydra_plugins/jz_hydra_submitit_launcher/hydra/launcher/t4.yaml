@@ -1,5 +1,5 @@
 defaults:
-  - base
+  - base_v100
 
 qos: qos_gpu-t4
 additional_parameters:
