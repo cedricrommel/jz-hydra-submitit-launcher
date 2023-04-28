@@ -2,4 +2,4 @@ defaults:
   - base
 
 additional_parameters:
-  constrain: v100-32g
+  constraint: v100-32g
