@@ -1,5 +1,5 @@
 defaults:
   - base
 
-setup:
-  - "#SBATCH -C v100-32g"
+additional_parameters:
+  constrain: v100-32g

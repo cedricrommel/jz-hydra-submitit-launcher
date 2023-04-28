@@ -13,5 +13,6 @@ additional_parameters:
   distribution: "block:block"
   hint: nomultithread
   time: "${hours}:00:00"
+  constrain: ${constraint}
 setup:
-  - "#SBATCH -C ${constraint}"
+  - "#SBATCH"
