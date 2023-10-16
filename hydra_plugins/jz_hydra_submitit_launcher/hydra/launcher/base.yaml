@@ -14,5 +14,6 @@ additional_parameters:
   hint: nomultithread
   time: "${hours}:00:00"
   constraint: ${constraint}
+  partition: ${partition}
 setup:
   - "#SBATCH"
